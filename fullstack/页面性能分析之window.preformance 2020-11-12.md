@@ -21,12 +21,12 @@
 - **loadEventStart**: load 事件发送给文档，也即 load 回调函数开始执行的时间。
 - **loadEventEnd**: load 事件的回调函数执行完毕的时间。
 
-通过以上数据，我们可以得到几个有用的时间
-**重定向耗时 redirect**: timing.redirectEnd - timing.redirectStart
-**DOM 渲染耗时 dom**: timing.domComplete - timing.domLoading
-**页面加载耗时 load**: timing.loadEventEnd - timing.navigationStart
-**页面卸载耗时 unload**: timing.unloadEventEnd - timing.unloadEventStart
-**请求耗时 request**: timing.responseEnd - timing.requestStart
+通过以上数据，我们可以得到几个有用的时间  
+**重定向耗时 redirect**: timing.redirectEnd - timing.redirectStart  
+**DOM 渲染耗时 dom**: timing.domComplete - timing.domLoading  
+**页面加载耗时 load**: timing.loadEventEnd - timing.navigationStart  
+**页面卸载耗时 unload**: timing.unloadEventEnd - timing.unloadEventStart  
+**请求耗时 request**: timing.responseEnd - timing.requestStart  
 **获取性能信息时当前时间 time**: new Date().getTime()
 
 链接：[https://juejin.im/post/6892003555818143752](https://juejin.im/post/6892003555818143752)
