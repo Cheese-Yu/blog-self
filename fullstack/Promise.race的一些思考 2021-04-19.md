@@ -1,6 +1,6 @@
 `Promise.race([...])`接受一个数组参数，一旦数组中的任何一个 Promise 完成(`resolve`或`reject`)，它就会`resolve`或`reject`，传入的是单个值。一旦传入空数组，race 讲永远不会有结果，所以千万不要传空数组。
 
-**那么 Promise.race 执行决议后，其他 Promise 还会执行么？**
+**那么 Promise.race 执行决议后，其他 Promise 还会执行么？**  
 我们来看一段代码:
 
 ```javascript
@@ -62,5 +62,5 @@ run();
  */
 ```
 
-上面代码，`timeoutPr`是最先完成的，所以在`catch`中捕获到了其抛出的错误。`race`会忽略后续其他`Promise`的决议，但是其他`Promise`还是会继续执行的。
+上面代码，`timeoutPr`是最先完成的，所以在`catch`中捕获到了其抛出的错误。`race`会忽略后续其他`Promise`的决议，但是其他`Promise`还是会继续执行的。  
 `Promise`不能被取消，具有外部不变性原则，这也可以解释`Promise.race`中的其他`Promise`还会继续执行。
