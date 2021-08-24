@@ -1,4 +1,4 @@
-import / export / export default:  只有 es6 支持的导出引入
+import / export / export default:  只有 es6 支持的导出引入  
 require / module.exports / exports:  只有 node 支持的导出
 
 ### 1. export / export default / import
@@ -84,6 +84,6 @@ const verifyPassword = require('a.js').verifyPassword;
 console.log(config.HOST);
 ```
 
-参考: 
-[exports、module.exports 和 export、export default 到底是咋回事](https://juejin.im/post/597ec55a51882556a234fcef)
+参考:   
+[exports、module.exports 和 export、export default 到底是咋回事](https://juejin.im/post/597ec55a51882556a234fcef)  
 [require 时，exports 和 module.exports 的区别你真的懂吗？](https://juejin.im/post/5d5639c7e51d453b5c1218b4)
