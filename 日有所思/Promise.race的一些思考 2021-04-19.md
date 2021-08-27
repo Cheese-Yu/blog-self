@@ -1,3 +1,4 @@
+# Promise.race的一些思考
 `Promise.race([...])`接受一个数组参数，一旦数组中的任何一个 Promise 完成(`resolve`或`reject`)，它就会`resolve`或`reject`，传入的是单个值。一旦传入空数组，race 讲永远不会有结果，所以千万不要传空数组。
 
 **那么 Promise.race 执行决议后，其他 Promise 还会执行么？**  
