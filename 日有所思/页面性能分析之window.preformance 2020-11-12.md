@@ -1,3 +1,4 @@
+# 页面性能分析之window.preformance
 ![df66c22c29c64be7bc4d16e7aedffae3_tplv-k3u1fbpfcp-zoom-1.jpeg](https://cdn.nlark.com/yuque/0/2021/jpeg/394019/1625036490781-2691e827-873a-4b95-87bc-88e7d38f519e.jpeg#clientId=ueba5b7f8-443d-4&from=ui&id=u44cca507&margin=%5Bobject%20Object%5D&name=df66c22c29c64be7bc4d16e7aedffae3_tplv-k3u1fbpfcp-zoom-1.jpeg&originHeight=555&originWidth=912&originalType=binary&ratio=2&size=52010&status=done&style=none&taskId=u3607eb19-bede-4fa2-ab4a-0a39f1ca9d6)
 
 - **navigationStart**: 表示从上一个文档卸载结束时的 unix 时间戳，如果没有上一个文档，这个值将和 fetchStart 相等。
