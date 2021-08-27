@@ -1,3 +1,4 @@
+# line-height的一些理解
 最近同事问了一个有趣的问题，给 `<span>` 设置 `line-height` 不生效该怎么办？我的第一反应，给 `<span>` 加 `display: inline-block;` 属性，`line-height` 生效了。但我不知道为什么，于是有了这篇文章。
 
 ### 何为 line-boxes
