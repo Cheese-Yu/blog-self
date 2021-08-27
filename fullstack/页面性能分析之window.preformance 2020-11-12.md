@@ -30,3 +30,5 @@
 **获取性能信息时当前时间 time**: new Date().getTime()
 
 链接：[https://juejin.im/post/6892003555818143752](https://juejin.im/post/6892003555818143752)
+  
+> 语雀地址 https://www.yuque.com/cheeseyu/fullstack/hcdckw
