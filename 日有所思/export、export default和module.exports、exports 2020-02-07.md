@@ -1,3 +1,4 @@
+# export、export default和module.exports、exports
 import / export / export default:  只有 es6 支持的导出引入  
 require / module.exports / exports:  只有 node 支持的导出
 
