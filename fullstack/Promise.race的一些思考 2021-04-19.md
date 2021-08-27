@@ -64,3 +64,5 @@ run();
 
 上面代码，`timeoutPr`是最先完成的，所以在`catch`中捕获到了其抛出的错误。`race`会忽略后续其他`Promise`的决议，但是其他`Promise`还是会继续执行的。  
 `Promise`不能被取消，具有外部不变性原则，这也可以解释`Promise.race`中的其他`Promise`还会继续执行。
+  
+> 语雀地址 https://www.yuque.com/cheeseyu/fullstack/muqlgh
