@@ -1,3 +1,4 @@
+# spawn shell中继续执行命令
 ```javascript
 function doSpawn(commands) {
   if (!commands || !commands.length) return;
