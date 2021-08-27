@@ -27,6 +27,7 @@ span {
 要说上面的例子 `line-height` 并不是没有生效，只是没有撑起 `<span>` 的高度而已。  
 对于 `<span>` 这种 inline 元素的 `line-height` 用于计算 line-boxes 的高度，并不是自身的高度。当给 `<span>` 设置了 `display: inline-block;` 属性时，`<span>` 就变成了块级元素。  
 但 MDN 定义中的 `元素行盒(line boxes)` 和 `行盒(line box)` 的区别和关系，我还没有搞懂。待日后清楚后会再来补充本篇文章。
-  
+
+<br>
   
 > 语雀地址 https://www.yuque.com/cheeseyu/fullstack/ai9f9b
