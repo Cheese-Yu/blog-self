@@ -1,6 +1,16 @@
 # export、export default和module.exports、exports
 import / export / export default:  只有 es6 支持的导出引入  
-require / module.exports / exports:  只有 node 支持的导出
+require / module.exports / exports:  只有 node 支持的导出  
+​
+
+### common.js 与 es6 模块的区别
+
+CommonJs 是 node 的模块规范，后来 ES6 又引入了 import 的模块规范。
+
+- CommonJs 是值的拷贝，ES6 模块是值的引用
+- CommonJs 是动态的，ES6 模块是静态的，只能写在顶层
+- CommonJs 是运行时加载，ES6 是编译时输出
+- CommonJs 的 this 是当前模块，ES6 的 this 是 undefined
 
 ### 1. export / export default / import
 
@@ -62,6 +72,8 @@ module.exports = router;
 - Node.js 默认先从缓存中加载模块，require 多次也只缓存一份(通过文件路径缓存)
 - require 模块加载是同步的(作为公共依赖的模块，当然想一次加载出来，同步更好)
 - exports 只是 module.exports 的引用，辅助后者添加内容用的
+
+​
 
 ```javascript
 exports = module.exports = {}; // 指向内存同一地址
